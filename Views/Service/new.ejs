@@ -10,10 +10,25 @@
     <form action="/service" method="post">
         <label for="name">Service Name</label>
         <input type="text" id="name" name="name">
+    </br>
         <label for="cost">Service cost</label>
         <input type="text" id="cost" name="cost">
-        <label for="duration">Service duration</label>
-        <input type="text" id="duration" name="duration">
+</br>
+        <label for="duration">Service duration in weeks</label>
+        <select name="duration" id="duration">
+            <option></option>
+            <option value="7 weeks">1</option>
+            <option value="8 weeks">2</option>
+            <option value="3 weeks">3</option>
+            <option value="4 weeks">4</option>
+            <option value="5 weeks">5</option>
+            <option value="6 weeks">6</option>
+            <option value="7 weeks">7</option>
+            <option value="8 weeks">8</option>
+            <option value="7 weeks">9</option>
+            <option value="8 weeks">10</option>
+          </select>
+        </br>
         <button>Submit</button>
     </form>
 </body>
