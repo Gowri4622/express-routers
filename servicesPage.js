@@ -23,9 +23,7 @@ let lisOfService=[
         
     ]
 
-    router.get('/',(request,response)=>{
-        response.json(lisOfService)
-    })
+   
     
 router.get('/:id',(request,response)=>{
     const serviceId=Number(request.params.id);
