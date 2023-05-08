@@ -2,7 +2,7 @@ const express=require('express')
 const router = express.Router()
 
 router.get('/',(request,response)=>{
-    response.send("This is the post Page")
+    response.send("This is the Post Page")
 })
 
 module.exports=router
