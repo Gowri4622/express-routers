@@ -11,7 +11,7 @@ const post = require('./postPage.js')
 
 
 app.get('/',(request,response)=>{
-    response.send("Welcome to Express Routers")
+    response.send("Welcome to Main Page")
 })
 
 
